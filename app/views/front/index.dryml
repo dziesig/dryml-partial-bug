@@ -1,0 +1,35 @@
+<page title="Home">
+
+  <body: class="front-page"/>
+
+  <content:>
+    <header class="content-header hero-unit">
+      <h1>Welcome to <app-name/></h1>
+      <section class="welcome-message">
+        <h3>Congratulations! Your Hobo Rails App is up and running but will crash as soon as you refresh this page due
+        to a bug in dryml's implementation of partials</h3>
+        <ul>
+          <li>To crash this app just refresh the page.  The second execution of rendering the partial f will do it.</li>
+          <li>The only way to clear it is to restart rails.</li>
+          <li>There is a second demo accessed by e.g. localhost:3000/hfront which renders a partial f using html.  That
+          does NOT crash the app no matter how many times it is refreshed.</li>
+        </ul>
+
+        <% if User.count == 0 -%>
+          <h3 style="margin-top: 20px;">There are no user accounts - please provide the details of the site administrator</h3>
+          <form with="&this || User.new" without-cancel>
+            <field-list: fields="name, email_address, password, password_confirmation"/>
+            <submit: label="Register Administrator"/>
+          </form>
+        <% end -%>
+
+
+      </section>
+    </header>
+
+    <section class="content-body">
+      <partial name='f' />
+    </section>
+  </content:>
+
+</page>

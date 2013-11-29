@@ -1,0 +1,2 @@
+module HfrontHelper
+end

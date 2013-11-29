@@ -1,0 +1,25 @@
+1385756141
+AdminSiteController	/home/donz/Desktop/Hobo/rt1/app/controllers/admin/admin_site_controller.rb	class Admin::AdminSiteController 
+ApplicationController	/home/donz/Desktop/Hobo/rt1/app/controllers/application_controller.rb	class ApplicationController 
+ApplicationHelper	/home/donz/Desktop/Hobo/rt1/app/helpers/application_helper.rb	module ApplicationHelper
+FrontController	/home/donz/Desktop/Hobo/rt1/app/controllers/front_controller.rb	class FrontController 
+FrontHelper	/home/donz/Desktop/Hobo/rt1/app/helpers/front_helper.rb	module FrontHelper
+Guest	/home/donz/Desktop/Hobo/rt1/app/models/guest.rb	class Guest 
+HfrontController	/home/donz/Desktop/Hobo/rt1/app/controllers/hfront_controller.rb	class HfrontController 
+HfrontHelper	/home/donz/Desktop/Hobo/rt1/app/helpers/hfront_helper.rb	module HfrontHelper
+User	/home/donz/Desktop/Hobo/rt1/app/models/user.rb	class User 
+UserMailer	/home/donz/Desktop/Hobo/rt1/app/mailers/user_mailer.rb	class UserMailer 
+UsersController	/home/donz/Desktop/Hobo/rt1/app/controllers/admin/users_controller.rb	class Admin::UsersController 
+UsersController	/home/donz/Desktop/Hobo/rt1/app/controllers/users_controller.rb	class UsersController 
+admin_required	/home/donz/Desktop/Hobo/rt1/app/controllers/admin/admin_site_controller.rb	  def admin_required
+administrator?	/home/donz/Desktop/Hobo/rt1/app/models/guest.rb	  def administrator?
+create	/home/donz/Desktop/Hobo/rt1/app/controllers/users_controller.rb	  def create
+create_permitted?	/home/donz/Desktop/Hobo/rt1/app/models/user.rb	  def create_permitted?
+destroy_permitted?	/home/donz/Desktop/Hobo/rt1/app/models/user.rb	  def destroy_permitted?
+forgot_password	/home/donz/Desktop/Hobo/rt1/app/mailers/user_mailer.rb	  def forgot_password(user, key)
+index	/home/donz/Desktop/Hobo/rt1/app/controllers/front_controller.rb	  def index;
+index	/home/donz/Desktop/Hobo/rt1/app/controllers/hfront_controller.rb	  def index;
+search	/home/donz/Desktop/Hobo/rt1/app/controllers/front_controller.rb	  def search
+summary	/home/donz/Desktop/Hobo/rt1/app/controllers/front_controller.rb	  def summary
+update_permitted?	/home/donz/Desktop/Hobo/rt1/app/models/user.rb	  def update_permitted?
+view_permitted?	/home/donz/Desktop/Hobo/rt1/app/models/user.rb	  def view_permitted?(field)
